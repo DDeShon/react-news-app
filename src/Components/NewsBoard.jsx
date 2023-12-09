@@ -1,3 +1,9 @@
 export const NewsBoard = () => {
-  return <div>NewsBoard</div>;
+  return (
+    <div>
+      <h2 className="text-center">
+        Latest <span className="">News</span>
+      </h2>
+    </div>
+  );
 };
