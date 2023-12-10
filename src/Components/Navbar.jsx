@@ -3,7 +3,7 @@ export const Navbar = () => {
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <span className="badge bg-light text-dark">NewsApp</span>
+          <span className="badge bg-light text-dark fs-4">NewsApp</span>
         </a>
         <button
           class="navbar-toggler"
