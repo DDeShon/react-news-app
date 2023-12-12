@@ -2,11 +2,11 @@ export const NewsItem = ({ title, description, src, url }) => {
   return (
     <div
       className="card bg-dark text-light mb-3 d-inline-block my-3 mx-3 px-2 py-2"
-      style={{ maxWidth: "345px" }}
+      style={{ maxWidth: "365px" }}
     >
       <img
         src={src}
-        style={{ height: "200px", width: "360px" }}
+        style={{ height: "200px", width: "345px" }}
         className="card-img-top"
         alt="..."
       />
