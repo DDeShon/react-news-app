@@ -22,16 +22,24 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
+              <div cldivssName="nav-link">Link</div>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
+              <div cldivssName="nav-link">Link</div>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item">
+              <div cldivssName="nav-link">Link</div>
+            </li>
+            <li className="nav-item">
+              <div cldivssName="nav-link">Link</div>
+            </li>
+            <li className="nav-item">
+              <div cldivssName="nav-link">Link</div>
+            </li>
+            <li className="nav-item">
+              <div cldivssName="nav-link">Link</div>
+            </li>
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -61,12 +69,12 @@ export const Navbar = () => {
                   </a>
                 </li>
               </ul>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <a className="nav-link disabled" aria-disabled="true">
                 Disabled
               </a>
-            </li>
+            </li> */}
           </ul>
           <form className="d-flex" role="search">
             <input
