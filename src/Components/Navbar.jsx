@@ -1,4 +1,4 @@
-export const Navbar = () => {
+export const Navbar = ({ setCategory }) => {
   return (
     <nav
       className="navbar navbar-expand-lg bg-body-tertiary"
@@ -22,22 +22,40 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <div cldivssName="nav-link">Technology</div>
+              <div
+                className="nav-link"
+                onclick={() => setCategory("technology")}
+              >
+                Technology
+              </div>
             </li>
             <li className="nav-item">
-              <div cldivssName="nav-link">Business</div>
+              <div className="nav-link" onclick={() => setCategory("business")}>
+                Business
+              </div>
             </li>
             <li className="nav-item">
-              <div cldivssName="nav-link">Health</div>
+              <div className="nav-link" onclick={() => setCategory("health")}>
+                Health
+              </div>
             </li>
             <li className="nav-item">
-              <div cldivssName="nav-link">Science</div>
+              <div className="nav-link" onclick={() => setCategory("science")}>
+                Science
+              </div>
             </li>
             <li className="nav-item">
-              <div cldivssName="nav-link">Sports</div>
+              <div className="nav-link" onclick={() => setCategory("sports")}>
+                Sports
+              </div>
             </li>
             <li className="nav-item">
-              <div cldivssName="nav-link">Entertainment</div>
+              <div
+                className="nav-link"
+                onclick={() => setCategory("entertainment")}
+              >
+                Entertainment
+              </div>
             </li>
             {/* <li className="nav-item dropdown">
               <a
