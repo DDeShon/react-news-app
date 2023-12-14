@@ -22,22 +22,22 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <div cldivssName="nav-link">Link</div>
+              <div cldivssName="nav-link">Technology</div>
             </li>
             <li className="nav-item">
-              <div cldivssName="nav-link">Link</div>
+              <div cldivssName="nav-link">Business</div>
             </li>
             <li className="nav-item">
-              <div cldivssName="nav-link">Link</div>
+              <div cldivssName="nav-link">Health</div>
             </li>
             <li className="nav-item">
-              <div cldivssName="nav-link">Link</div>
+              <div cldivssName="nav-link">Science</div>
             </li>
             <li className="nav-item">
-              <div cldivssName="nav-link">Link</div>
+              <div cldivssName="nav-link">Sports</div>
             </li>
             <li className="nav-item">
-              <div cldivssName="nav-link">Link</div>
+              <div cldivssName="nav-link">Entertainment</div>
             </li>
             {/* <li className="nav-item dropdown">
               <a
