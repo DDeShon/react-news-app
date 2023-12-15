@@ -6,7 +6,7 @@ export const Navbar = ({ setCategory }) => {
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <span classNameName="badge bg-light text-dark fs-4">NewsApp</span>
+          <span className="badge bg-light text-dark fs-4">CMS News</span>
         </a>
         <button
           className="navbar-toggler"
