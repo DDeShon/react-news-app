@@ -24,35 +24,35 @@ export const Navbar = ({ setCategory }) => {
             <li className="nav-item">
               <div
                 className="nav-link"
-                onclick={() => setCategory("technology")}
+                onClick={() => setCategory("technology")}
               >
                 Technology
               </div>
             </li>
             <li className="nav-item">
-              <div className="nav-link" onclick={() => setCategory("business")}>
+              <div className="nav-link" onClick={() => setCategory("business")}>
                 Business
               </div>
             </li>
             <li className="nav-item">
-              <div className="nav-link" onclick={() => setCategory("health")}>
+              <div className="nav-link" onClick={() => setCategory("health")}>
                 Health
               </div>
             </li>
             <li className="nav-item">
-              <div className="nav-link" onclick={() => setCategory("science")}>
+              <div className="nav-link" onClick={() => setCategory("science")}>
                 Science
               </div>
             </li>
             <li className="nav-item">
-              <div className="nav-link" onclick={() => setCategory("sports")}>
+              <div className="nav-link" onClick={() => setCategory("sports")}>
                 Sports
               </div>
             </li>
             <li className="nav-item">
               <div
                 className="nav-link"
-                onclick={() => setCategory("entertainment")}
+                onClick={() => setCategory("entertainment")}
               >
                 Entertainment
               </div>
