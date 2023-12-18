@@ -22,40 +22,37 @@ export const Navbar = ({ setCategory }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <div
-                className="nav-link"
-                onClick={() => setCategory("technology")}
-              >
+              <a className="nav-link" onClick={() => setCategory("technology")}>
                 Technology
-              </div>
+              </a>
             </li>
             <li className="nav-item">
-              <div className="nav-link" onClick={() => setCategory("business")}>
+              <a className="nav-link" onClick={() => setCategory("business")}>
                 Business
-              </div>
+              </a>
             </li>
             <li className="nav-item">
-              <div className="nav-link" onClick={() => setCategory("health")}>
+              <a className="nav-link" onClick={() => setCategory("health")}>
                 Health
-              </div>
+              </a>
             </li>
             <li className="nav-item">
-              <div className="nav-link" onClick={() => setCategory("science")}>
+              <a className="nav-link" onClick={() => setCategory("science")}>
                 Science
-              </div>
+              </a>
             </li>
             <li className="nav-item">
-              <div className="nav-link" onClick={() => setCategory("sports")}>
+              <a className="nav-link" onClick={() => setCategory("sports")}>
                 Sports
-              </div>
+              </a>
             </li>
             <li className="nav-item">
-              <div
+              <a
                 className="nav-link"
                 onClick={() => setCategory("entertainment")}
               >
                 Entertainment
-              </div>
+              </a>
             </li>
           </ul>
           {/* <form className="d-flex" role="search">
